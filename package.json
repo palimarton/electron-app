@@ -80,7 +80,9 @@
   "engines": {
     "node": ">=10.13.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "4.5.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/palimarton/electron-app.git"

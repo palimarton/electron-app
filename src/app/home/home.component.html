@@ -3,5 +3,17 @@
     {{ 'PAGES.HOME.TITLE' | translate }}
   </h1>
 
-  <a routerLink="/detail">{{ 'PAGES.HOME.GO_TO_DETAIL' | translate }}</a>
+  <div class="row">
+    <div class="col-6 text-center">
+      <div class="btn-group" role="group">
+        <button class="btn btn-primary">Sziaa</button>
+        <button class="btn btn-marcika">Marciii</button>
+      </div>
+
+    </div>
+    <div class="col-6 text-center">
+      <a routerLink="/detail">{{ 'PAGES.HOME.GO_TO_DETAIL' | translate }}</a>
+    </div>
+  </div>
+
 </div>
