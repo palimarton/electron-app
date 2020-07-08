@@ -1,9 +1,13 @@
+@import "../variables";
 
-// Theme overrides ( :( )
+// Color overrides
+$green: $green-sea;
+$yellow: $sun-flower;
+
+// Theme overrides
 $theme-colors: (
-    "primary": #0074d9,
-    "danger": #ff4136,
-    "marcika": #16a085
+    "primary": $green-sea,
+    "secondary": $sun-flower
 );
     
-@import "node_modules/bootstrap/scss/bootstrap.scss";
+@import "node_modules/bootstrap/scss/bootstrap";

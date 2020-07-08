@@ -1,0 +1,21 @@
+@import "src/scss/variables";
+
+.main-shell {
+    height: 100%;
+    width: 100%;
+
+    .carousel-control {
+        transition: linear .2s;
+        &:hover {
+            background-color: darken($color: $bg-primary, $amount: 10%);
+        }
+    }
+
+    .carousel-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        height: 100%;
+    }
+}
